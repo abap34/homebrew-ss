@@ -1,8 +1,8 @@
 class Ss < Formula
   desc "Slide description language and CLI"
   homepage "https://github.com/abap34/ss"
-  url "https://github.com/abap34/ss/releases/download/v0.1.4/ss-0.1.4.tar.gz"
-  sha256 "a6e8ff420da4707cd7ca49d63f6ba2b8e76ea927684a4d2ea7b6c44072a16be8"
+  url "https://github.com/abap34/ss/releases/download/v0.1.5/ss-0.1.5.tar.gz"
+  sha256 "b8920f97db33d30e2681de1ed0571c56f7de70446e70e09c4cef444f1f41db36"
   license "Apache-2.0"
 
   depends_on "zig" => :build
@@ -46,7 +46,7 @@ class Ss < Formula
       import std:themes/default
 
       page home
-      title_page("Homebrew", "ss formula smoke", "v#{version}")
+      cover("Homebrew", "ss formula smoke", "v#{version}")
       end
     EOS
 
