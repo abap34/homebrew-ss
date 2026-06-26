@@ -1,8 +1,8 @@
 class Ss < Formula
   desc "Slide description language and CLI"
   homepage "https://github.com/abap34/ss"
-  url "https://github.com/abap34/ss/releases/download/v0.6.0/ss-0.6.0.tar.gz"
-  sha256 "0741d7905eea0b02ceb45ff29cf4f450fa732fc9196d1fc1485ddff8628e5761"
+  url "https://github.com/abap34/ss/releases/download/v0.6.1/ss-0.6.1.tar.gz"
+  sha256 "7863161fb4aaed457095f306c9e7f8aabe83137fdfb615732bc48c5a2b85e613"
   license "Apache-2.0"
 
   depends_on "zig" => :build
